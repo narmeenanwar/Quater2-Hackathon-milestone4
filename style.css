@@ -1,0 +1,165 @@
+/* styles.css */
+
+
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color:darkgrey;
+    color:black;
+}
+
+.header{
+    background-color:rgb(221, 229, 237);
+    padding: 20px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-decoration:dashed;
+}
+
+
+.body{
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color:rgb(221, 229, 237);
+    padding: 20px;
+    text-align: center;
+
+}
+
+
+#Resume{
+    max-width: 600px;
+    margin: auto;
+    text-align: justify;
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    
+}
+
+
+fieldset{
+    border: 3px solid #4289c4;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(210, 225, 237);
+}
+
+
+legend{
+text-align: left;
+font-size:  15px;
+}
+
+
+label{
+    display: block;
+    margin-top: 5px;
+}
+
+
+input, textarea{
+    width: calc(100% - 15px);
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid rgb(168, 202, 230);
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgb(254, 255, 255);
+}
+
+
+button{
+    display: block;
+    width: 100px;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(66, 155, 232);
+    color: black;
+    cursor: pointer;
+    margin: 10px;
+    margin-left: 40%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+button a{
+    text-decoration: none;
+    color: inherit;
+}
+
+button:hover{
+    background-color: rgb(48, 120, 185);
+    color: white;
+}
+
+.header2 img{
+    display: inline;
+    margin: 0 auto;
+    border: 2px solid rgba(39, 34, 44, 0.078);
+    box-shadow: 0 4px 0 rgb(99, 94, 99);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-left: 10%;
+    
+}
+
+#resume-display{
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color:rgb(221, 229, 237);
+    text-align: center;
+    display: block;
+}
+
+#resume-display h2{
+    text-align: right;
+    color: black;
+    font-weight: 300;
+    font-size: 3rem;
+    display: inline;
+    margin-right: 10%;
+    margin-bottom: 20%;
+    align-items: center;
+}
+    
+ 
+.header2{
+    background-color: #b3b9be;
+}
+
+/* Responsive Design */
+
+@media only screen and (max-width: 768px) {
+    #Resume {
+        width: 90%;
+    }
+} 
+
+@media only screen and (max-width: 480px) {
+    #Resume {
+        width: 100%;
+    }
+    fieldset {
+        padding: 10px;
+    }
+    label {
+        font-size: 14px;
+    }
+    input, textarea {
+        padding: 3px;
+    }
+    button {
+        width: 80px;
+        padding: 5px;
+    }
+}
+
